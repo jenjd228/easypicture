@@ -14,7 +14,8 @@
     <name>easyPicture</name>
     <description>Demo project for Spring Boot</description>
     <properties>
-        <java.version>14</java.version>
+        <maven.compiler.source>14</maven.compiler.source>
+        <maven.compiler.target>14</maven.compiler.target>
     </properties>
     <dependencies>
         <dependency>
@@ -59,6 +60,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.2.5.RELEASE</version>
                 <configuration>
                     <excludes>
                         <exclude>
